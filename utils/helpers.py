@@ -17,11 +17,12 @@ def creer_dossier_course(path_dossier):
     except FileExistsError:
         print(f"Le dossier {nom_dossier} existe déjà.")
 
+
 def date_auj():
     """
     Retourne la date du jour au format 'jour semaine, jour mois année' en français.
     """
-    global date_du_jour_global
+    date_du_jour_global = None
     
     if date_du_jour_global is None:
 
