@@ -1,3 +1,6 @@
-# Mon Projet de Scraping
+pip install -r requirements.txt
 
-Description du projet.
+source mon_environnement/Scripts/activate
+
+
+path_dossier = "C:\\Users\\Alex\\test\\test\\data"
